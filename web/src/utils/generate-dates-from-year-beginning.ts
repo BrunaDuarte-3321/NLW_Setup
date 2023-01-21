@@ -8,7 +8,7 @@ export function generateDatesFromYearBeginning() {
 
   let compareDate = firtDayOfTheYear
 
-  while (compareDate.isBefore(today)){
+  while (compareDate.isBefore(today)) {
     dates.push(compareDate.toDate())
     compareDate = compareDate.add(1, 'day')
   }
